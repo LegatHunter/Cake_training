@@ -140,14 +140,19 @@ $container-width:1180px
         cursor: pointer
 
 .oblako1
+    background: url("./img/01 1.png") no-repeat center
+    height: 330px
+    background-size: cover
     background-color: #081130
-    margin: -10px
 
 .create-cake
+    position: relative
     background-color: #081130
     display: flex
+    justify-content: center
     gap: 84px
     color: #FFF
+    margin-left: -290px
     &__info
         margin-top: 100px
         max-width: 500px
@@ -171,5 +176,78 @@ $container-width:1180px
             font-weight: 400
             margin-bottom: 40px
 
+.chef
+    display: flex
+    gap: 20px
+    align-items: center
+    &__info
+        max-width: 580px
+        &_spisok
+            max-width: 380px
+            padding-left: 20px
+            color: #5D6AFB
+        &_spisok span
+            color: #2E363E
+        &_spisok li
+            margin-bottom: 30px
+        &_spisok li:last-child
+            margin-bottom: 50px
+
 .oblako2
-    margin-top: -50%
+    background: url("./img/02 1.png") no-repeat center
+    margin-top: -330px
+    height: 330px
+    background-size: cover
+    position: relative
+    z-index: 1
+
+.chef-img
+    position: relative
+
+.chef-img__i_f
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 5px
+    width: 270px
+    height: 60px
+    transform: skew(-20deg)
+    background: #2E363E
+    position: absolute
+    top: 520px
+    left: -80px
+
+.chef-img__i_f span
+    color: #FFF
+    font-size: 24px
+    font-weight: 500
+    transform: skew(20deg)
+
+.chef-img__i_s
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 5px
+    width: 170px
+    height: 60px
+    transform: skew(-20deg)
+    background: #F2F6FA
+    position: absolute
+    top: 580px
+    left: -40px
+
+.chef-img__i_s span
+    font-size: 18px
+    font-weight: 400
+    transform: skew(20deg)
+
+.berry
+    position: absolute
+    top: 80px
+    z-index: -1
+
+.leaf
+    position: absolute
+    top: 100px
+    right: 20px
+    z-index: -1
