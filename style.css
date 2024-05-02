@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  color: #fff;
+}
+.header__contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 37px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.adres {
+  margin-right: 69px;
+  display: flex;
+  text-wrap: wrap;
+  gap: 12px;
+}
+.adres__text {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.telephone {
+  display: flex;
+  gap: 13px;
+}
+.telephone__text_num {
+  font-size: 20px;
+  font-weight: bold;
+}
+.telephone__text_hw {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.take-catalog {
+  padding-bottom: 525px;
+}
+.take-catalog__info {
+  margin-top: 219px;
+  max-width: 647px;
+}
+.take-catalog__text {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  line-height: 60px;
+}
+.take-catalog__text_i {
+  font-size: 24px;
+  margin-bottom: 40px;
+  line-height: 143%;
+}
+
+.btn-silver {
+  padding: 10px 18px;
+  border-radius: 5px;
+  background-color: #F2F6FA;
+  color: #2E363E;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-pre {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn-pre__orange {
+  padding: 30px 50px;
+  background-color: #FED84C;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.btn-pre__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.cont {
+  color: #2E363E;
+}
+.cont__pre {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.cont__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.cont__cards_i {
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0px 10px #F2F6FA;
+}
+
+.cake-inf {
+  margin: 50px 89px 50px 44px;
+}
+.cake-inf__name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+.cake-inf__p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.cake-inf__price {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.cake-inf__btn {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 40px;
+  background-color: #FED84C;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.oblako1 {
+  background-color: #081130;
+  margin: -10px;
+}
+
+.create-cake {
+  background-color: #081130;
+  display: flex;
+  gap: 84px;
+  color: #FFF;
+}
+.create-cake__info {
+  margin-top: 100px;
+  max-width: 500px;
+}
+.create-cake__info_embl {
+  max-width: 220px;
+  font-size: 11px;
+  font-weight: 400;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  background-color: #F2F6FA;
+  padding: 10px 18px;
+  color: #2E363E;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.create-cake__info_title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.create-cake__info_text {
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.oblako2 {
+  margin-top: -50%;
+}/*# sourceMappingURL=style.css.map */
