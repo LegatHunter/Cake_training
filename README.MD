@@ -1,0 +1,1 @@
+*Тренировка по верстке и SASS. Макет - https://www.figma.com/file/WouWtLrowwJdVRE8hsoOsJ/Макет-Landing-Page-для-Figma-(шаблон)-(Community)?type=design&node-id=1-300&mode=design&t=x92PL2L3p96wVStk-0
