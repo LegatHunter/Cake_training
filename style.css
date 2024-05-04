@@ -12,6 +12,10 @@
   margin: 0 auto;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   background: #081130;
   background-image: url("./img/bg.jpg");
@@ -36,14 +40,14 @@
 .berry-header2 {
   position: absolute;
   top: -200px;
-  right: -450px;
+  right: -950px;
   rotate: -180deg;
 }
 
 .berry-header3 {
   position: absolute;
   top: 550px;
-  right: -180px;
+  right: -730px;
 }
 
 .leaf-header1 {
@@ -93,12 +97,12 @@
 }
 
 .take-catalog {
-  position: relative;
   padding-bottom: 525px;
 }
 .take-catalog__info {
   margin-top: 219px;
   max-width: 647px;
+  position: relative;
 }
 .take-catalog__text {
   font-size: 48px;
@@ -225,7 +229,6 @@
 .create-cake {
   background-color: #081130;
   display: flex;
-  justify-content: center;
   gap: 84px;
   color: #FFF;
 }
@@ -388,6 +391,7 @@
   gap: 54px;
   border-radius: 5px;
   padding-bottom: 70px;
+  position: relative;
 }
 .feedback__card_text {
   display: flex;
@@ -446,6 +450,21 @@
   cursor: pointer;
 }
 
+.leaf-feedback {
+  position: absolute;
+  width: 127px;
+  top: -150px;
+  left: -150px;
+  rotate: 60deg;
+}
+
+.berry-feedback {
+  position: absolute;
+  width: 152px;
+  right: -90px;
+  top: -20px;
+}
+
 .oblako3 {
   background: #081130;
   background-image: url("./img/04 1.png");
@@ -467,15 +486,14 @@
   margin-bottom: 80px;
 }
 .orders__grid {
-  max-width: 1920px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 9px;
 }
 .orders__grid img {
-  display: inline-grid;
-  max-width: 625px;
+  max-width: 100%;
+  height: auto;
 }
 
 .oblako4 {
@@ -493,6 +511,7 @@
   text-align: center;
   border-radius: 8px;
   padding-bottom: 70px;
+  position: relative;
 }
 .about__form h3 {
   padding-top: 70px;
@@ -535,6 +554,13 @@
   font-size: 11px;
   font-weight: 300;
 }
+.about__form label a {
+  text-decoration: underline;
+}
+.about__form label a:visited {
+  text-decoration: none;
+  color: inherit;
+}
 .about__tel::-moz-placeholder {
   background-image: url("./img/icon/Phone.png");
   background-repeat: no-repeat;
@@ -544,6 +570,37 @@
   background-image: url("./img/icon/Phone.png");
   background-repeat: no-repeat;
   padding-left: 60px;
+}
+
+.leaf-about1 {
+  position: absolute;
+  width: 106px;
+  rotate: 75deg;
+  top: -60px;
+  left: -70px;
+}
+
+.leaf-about2 {
+  position: absolute;
+  width: 146px;
+  right: -100px;
+  bottom: -90px;
+  rotate: 75deg;
+}
+
+.berry-about1 {
+  position: absolute;
+  width: 152px;
+  right: -100px;
+  top: -90px;
+  rotate: 180deg;
+}
+
+.berry-about2 {
+  position: absolute;
+  width: 167px;
+  bottom: -100px;
+  left: -130px;
 }
 
 .footer {

@@ -12,7 +12,8 @@ $container-width:1180px
     max-width: $container-width
     margin: 0 auto
 
-
+body
+    overflow-x: hidden
 
 .header
     background: #081130
@@ -35,14 +36,13 @@ $container-width:1180px
 .berry-header2
     position: absolute
     top: -200px
-    right: -450px
+    right: -950px
     rotate: (-180deg)
-    // overflow: hidden
 
 .berry-header3
     position: absolute
     top: 550px
-    right: -180px
+    right: -730px
 
 .leaf-header1
     position: absolute
@@ -84,12 +84,11 @@ $container-width:1180px
         font-weight: 400
 
 .take-catalog
-    position: relative
     padding-bottom: 525px
-
     &__info
         margin-top: 219px
         max-width: 647px
+        position: relative
     &__text
         font-size: 48px
         font-weight: bold
@@ -196,7 +195,6 @@ $container-width:1180px
 .create-cake
     background-color: #081130
     display: flex
-    justify-content: center
     gap: 84px
     color: #FFF
     &__photo
@@ -333,6 +331,7 @@ $container-width:1180px
         gap: 54px
         border-radius: 5px
         padding-bottom: 70px
+        position: relative
         &_text
             display: flex
             flex-direction: column
@@ -378,6 +377,18 @@ $container-width:1180px
             background-color: #FED84C
             border-radius: 50%
             cursor: pointer
+.leaf-feedback
+    position: absolute
+    width: 127px
+    top: -150px
+    left: -150px
+    rotate: (60deg)
+.berry-feedback
+    position: absolute
+    width: 152px
+    right: -90px
+    top: -20px
+
 .oblako3
     background: #081130
     background-image: url('./img/04 1.png')
@@ -395,14 +406,14 @@ $container-width:1180px
         font-weight: 300
         margin-bottom: 80px
     &__grid
-        max-width: 1920px
         margin: 0 auto
         display: grid
         grid-template-columns: 1fr 1fr 1fr
         grid-gap: 9px
     &__grid img
-        display: inline-grid
-        max-width: 625px
+        max-width: 100%
+        height: auto
+
 .oblako4
     background: #081130
     background-image: url('./img/05 1.png')
@@ -416,6 +427,7 @@ $container-width:1180px
         text-align: center
         border-radius: 8px
         padding-bottom: 70px
+        position: relative
     &__form h3
         padding-top: 70px
         font-size: 36px
@@ -451,11 +463,39 @@ $container-width:1180px
         color: #7E868E
         font-size: 11px
         font-weight: 300
+    &__form label a
+        text-decoration: underline
+    &__form label a:visited
+        text-decoration: none
+        color: inherit
     &__tel::placeholder
         background-image: url('./img/icon/Phone.png')
         background-repeat: no-repeat
         padding-left: 60px
 
+.leaf-about1
+    position: absolute
+    width: 106px
+    rotate: (75deg)
+    top: -60px
+    left: -70px
+.leaf-about2
+    position: absolute
+    width: 146px
+    right: -100px
+    bottom: -90px
+    rotate: (75deg)
+.berry-about1
+    position: absolute
+    width: 152px
+    right: -100px
+    top: -90px
+    rotate: (180deg)
+.berry-about2
+    position: absolute
+    width: 167px
+    bottom: -100px
+    left: -130px
 .footer
     background-color: #081130
     color: #7E868E
